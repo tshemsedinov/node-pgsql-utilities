@@ -1,0 +1,32 @@
+{
+  "name": "pgsql-utilities",
+  "version": "0.0.2",
+  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "description": "Utilities for node.js PostgreSQL driver with specialized result types, introspection and other helpful functionality",
+  "license": "MIT",
+  "keywords": [
+    "pgsql",
+    "utilities",
+    "introspection",
+    "impress"
+  ],
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tshemsedinov/node-pgsql-utilities"
+  },
+  "main": "./utilities",
+  "scripts": {
+    "test": "npm run lint && node example",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "dependencies": {
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  }
+}
